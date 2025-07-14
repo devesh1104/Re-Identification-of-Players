@@ -125,7 +125,6 @@ The system requires three pre-trained YOLO models:
 
 1. **Player Detection Model**: `Model/football-player-detection-v9.pt`
 2. **Pitch Detection Model**: `data/football-pitch-detection.pt`
-3. **Ball Detection Model**: `data/football-ball-detection.pt`
 
 ### Model File Structure
 ```
@@ -152,6 +151,27 @@ Models can be:
 The system generates:
 
 1. **Annotated Video**: Input video with player tracking annotations
+
+
+https://github.com/user-attachments/assets/b6bceeef-0fcf-4671-b709-2132055fa69a
+
+
+
+- **Initial Identification**
+  
+<img width="1812" height="876" alt="Screenshot 2025-07-14 104024" src="https://github.com/user-attachments/assets/69ad27fa-09fa-435b-bc48-ade29e100983" />
+
+
+
+- **Losing the player**
+  
+<img width="1807" height="864" alt="Screenshot 2025-07-14 104057" src="https://github.com/user-attachments/assets/fda59baf-cb23-46ed-9f1e-c22ff5917f01" />
+
+
+
+- **Re-Identification**
+  
+<img width="1815" height="863" alt="Screenshot 2025-07-14 104042" src="https://github.com/user-attachments/assets/507f0112-97fd-42f2-98f5-b14a8e02c43d" />
 
 ### Annotation Elements
 
